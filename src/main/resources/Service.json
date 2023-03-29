@@ -1,0 +1,10 @@
+{
+  "configuration": {
+    "baseDirectory": "c:/temp",
+    "service": {
+      "name": "My Spring Rest API",
+      "description": "Provides CRUD operations for something",
+      "basePackage" : "com.kaib"
+    }
+  }
+}

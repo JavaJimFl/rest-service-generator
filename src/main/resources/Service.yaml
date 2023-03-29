@@ -1,0 +1,11 @@
+base-directory: "c:/temp"
+service:
+  operations:
+  - GET
+  - PUT
+  - POST
+  - DELETE
+  name: "My Spring Rest API"
+  description: "Provides CRUD operations for something"
+  base-package: &BASE_PACKAGE "com.kaib"
+  config-package: *BASE_PACKAGE".config"
